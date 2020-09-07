@@ -3,26 +3,30 @@
 	<head>
 		<title>Мой первый сайт</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="initial-scale=1.0, width=device-width">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/fonts.css">
 	</head>
 	<body>
-		<header>
-			<div>app.creation</div>
-			<nav>
-				<a href="">start</a>
-				<a href="">services</a>
-				<a href="">about</a>
-				<a href="">blog</a>
-				<a href="">contact us</a>
+		<header class="header">
+			<div class="header__logo">app.creation</div>
+			<nav class="header__nav">
+				<a class="header__nav_link" href="">start</a>
+				<a class="header__nav_link" href="">services</a>
+				<a class="header__nav_link" href="">about</a>
+				<a class="header__nav_link" href="">blog</a>
+				<a class="header__nav_link" href="">contact us</a>
 			</nav>
 		</header>
-		<main>
-			<h1>Building an App Without Design Expertise?</h1>
-			<p>I help tech startups design better digital products without hiring a full-time designer</p>
-			<button>Schedule free consultation</button>
+		<main class="main">
+			<content class="main__left-side">
+				<h1 class="main__tittle">Building an App Without Design Expertise?</h1>
+				<p class="main__content">I help tech startups design better digital products without hiring a full-time designer</p>
+				<button class="main__button">Schedule free consultation</button>
+			</content>
+			<div class="right-side">
+				<img class="right-side__img" src="img/Frame.png">
+			</div>
 		</main>
-		<div>
-			<img src="img/Frame.png">
-		</div>
 	</body>
 </html>

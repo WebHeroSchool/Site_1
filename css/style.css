@@ -1,0 +1,51 @@
+body {
+	min-width: 1170px;
+	max-width: 1920px;
+
+}
+
+.header {
+	display: flex;
+	justify-content: space-around;
+}
+
+.main__content {
+	font-family: Roboto;
+}
+
+.main__tittle {
+	font-family: PT Serif;
+}
+
+.main {
+	display: flex;
+	justify-content: space-around;
+}
+
+.main__left-side {
+	display: grid;
+	align-items: center;
+}
+
+.right-side {
+	display: grid;
+	align-items: center;
+}
+
+.header__nav {
+	max-width: 50%;
+	display: flex;
+	justify-content: space-around;
+	font-family: Roboro;
+	text-decoration: none;
+}
+
+.header__nav_link {
+	margin-right: 2em;
+}
+
+.main__button {
+	max-width: 50%;
+	background: #0056EC;
+	border-radius: 4px;
+}

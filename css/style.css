@@ -3,3 +3,78 @@ body {
 	max-width: 1920px;
 
 }
+
+.header {
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	padding-top: 2vw;
+}
+
+.logo {
+	font-family: PT Serif;
+	font-weight: bold;
+}
+
+.menu__item {
+	margin: 0 13px;
+	font-family: Roboto;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+.menu__item:hover {
+	border-bottom: solid 3px #0056EC;
+	transition: 0.3s;
+}
+
+.menu-item:last-child{
+	padding-right: 0;
+}
+
+.main-section {
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	padding-top: 8em;
+}
+
+.main-content {
+	display: grid;
+	justify-content: space-between;
+	padding-right: 4em;
+}
+
+.main-content__button {
+	background-color: #0056EC;
+	border-radius: 4px;
+	border: none;
+	max-height: 4vw;
+	max-width: 20vw;
+	font-family: Roboto;
+	color: #FFFFFF;
+	font-size: 1vw;	
+}
+
+.main-content__title {
+	margin: 0;
+	font-family: PT Serif;
+	font-size: 4vw;						 	
+}
+
+.main-content__subtitle {
+	margin: 0;
+	font-family: Roboto;
+	width: 70%;
+	font-size: 1.5vw;	
+}
+
+.image-content {
+	width: 50%;
+}
+
+.image-content__image {
+	width: 100%;
+}

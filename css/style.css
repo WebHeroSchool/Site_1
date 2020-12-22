@@ -100,3 +100,65 @@ body {
 .image-content__image {
 	width: 100%;
 }
+
+@media (max-width: 375px) {
+	
+	.menu {
+		display: none;
+	}
+	
+	.logo-text {
+		display: none;
+	}
+
+	.logo__circle {
+		width: 6vw;
+		height: 6vw;
+	}
+
+	body {
+	min-width: 375px;
+	max-width: 450px;
+   	}
+
+   	.header {
+   		min-width: 80%;
+   	}
+   	
+   	.main-section {
+   		display: flex;
+   		flex-direction: column-reverse;
+   		justify-content: center;
+   	}
+   	
+   	.main-content {
+   		padding: 0;
+   		display: flex;
+   		flex-direction: column;
+   		justify-content: center;
+   		align-items: center;
+
+   	}
+   	
+   	.image-content {
+   		width: 100%;
+   	}
+   	
+   	.main-content__title {
+   		width: 100%;
+   	}
+
+   	.main-content__subtitle {
+   		width: 100%;
+   		font-size: 3vw;
+   		font-weight: bold;
+   	}
+
+   	.main-content__button {
+   		width: 100%;
+   		max-width: 50vw;
+   		min-height: 10vw;
+   		font-size: 3vw;
+   	}
+
+}
